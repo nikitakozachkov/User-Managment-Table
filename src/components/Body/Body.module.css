@@ -1,0 +1,15 @@
+.container td {
+	padding: 16px;
+
+	font-size: 16px;
+	text-align: left;
+}
+.container tr:nth-of-type(even){
+	background: #f0f0f0;
+}
+.container tr td:first-of-type {
+	border-radius: 8px 0 0 8px;
+}
+.container tr td:last-of-type {
+	border-radius: 0 8px 8px 0;
+}

@@ -1,0 +1,38 @@
+.container {
+	background: #dadada;
+}
+
+.container th {
+	padding: 16px;
+
+  text-align: left;
+	font-size: 14px;
+}
+
+.container p {
+  margin: 0;
+
+  margin-bottom: 8px;
+
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.container input {
+  border: 0;
+  outline: 0;
+
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+
+  font-size: 12px;
+}
+
+.container th:first-of-type {
+	border-radius: 8px 0 0 8px;
+}
+.container th:last-of-type {
+	border-radius: 0 8px 8px 0;
+}
